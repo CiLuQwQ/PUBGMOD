@@ -1,0 +1,15 @@
+{
+    "block.pubg.bushes": "Bushes",
+    "item.pubg.gold_brick": "§6§lGold Brick",
+    "item.pubg.bullet": "Bullet",
+    "gun_types.automatic_refles": "§7Automatic Refles",
+    "gun_types.shot_gun": "§7Shot Gun",
+    "gun_types.submachine_gun": "§7Submachine Gun",
+    "gun_types.sniper_gun": "§7Sniper Gun",
+    "gun_types.attribute.shot_interval": "§7Shot Interval: %s",
+    "gun_types.attribute.attack_damage": "§7Attack Damage: %f+%f",
+    "gun_types.attribute.range": "§7Range: %s§7m",
+    "text.sell.success": "The sale was successful, with an income of %fw",
+    "itemGroup.pubg.items": "PUBG: Items",
+    "commands.sell.no_sellable_item": "There are no items to sell"
+}

@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "pubg:gold_brick",
+                    "weight": 10,
+                    "quality": 2,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.05
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pubg:bullet",
+                    "weight": 3,
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 20
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.9
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "pubg:test_gun",
+                    "weight": 6,
+                    "quality": 1,
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.7
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
