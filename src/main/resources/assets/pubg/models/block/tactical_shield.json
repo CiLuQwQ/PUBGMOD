@@ -1,6 +1,6 @@
 {
-    "parent": "minecraft:block/cube_all",
+    "parent": "minecraft:block/template_orientable_trapdoor_open",
     "textures": {
-        "all": "pubg:block/tactical_shield"
+        "texture": "pubg:block/tactical_shield"
     }
 }

@@ -1,7 +1,19 @@
 {
     "variants": {
-        "": {
+        "facing=east": {
+            "model": "pubg:block/tactical_shield",
+            "y": 270
+        },
+        "facing=north": {
+            "model": "pubg:block/tactical_shield",
+            "y": 180
+        },
+        "facing=south": {
             "model": "pubg:block/tactical_shield"
+        },
+        "facing=west": {
+            "model": "pubg:block/tactical_shield",
+            "y":90
         }
     }
 }

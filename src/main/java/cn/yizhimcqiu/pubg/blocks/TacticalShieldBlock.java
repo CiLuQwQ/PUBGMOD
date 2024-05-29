@@ -19,10 +19,10 @@ import org.jetbrains.annotations.Nullable;
 
 public class TacticalShieldBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
-    protected static final VoxelShape SOUTH_AABB = Block.box(-16.0D, 0.0D, 13.0D, 32.0D, 32.0D, 16.0D);
-    protected static final VoxelShape NORTH_AABB = Block.box(-16.0D, 0.0D, 0.0D, 32.0D, 32.0D, 3.0D);
-    protected static final VoxelShape WEST_AABB = Block.box(0.0D, 0.0D, -16.0D, 3.0D, 32.0D, 32.0D);
-    protected static final VoxelShape EAST_AABB = Block.box(13.0D, 0.0D, -16.0D, 16.0D, 32.0D, 32.0D);
+    protected static final VoxelShape SOUTH_AABB = Block.box(0.0D, 0.0D, 13.0D, 16.0D, 16.0D, 16.0D);
+    protected static final VoxelShape NORTH_AABB = Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 3.0D);
+    protected static final VoxelShape WEST_AABB = Block.box(0.0D, 0.0D, 0.0D, 3.0D, 16.0D, 16.0D);
+    protected static final VoxelShape EAST_AABB = Block.box(13.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D);
     public TacticalShieldBlock(Properties properties) {
         super(properties);
         this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));

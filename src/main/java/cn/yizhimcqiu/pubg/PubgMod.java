@@ -2,6 +2,7 @@ package cn.yizhimcqiu.pubg;
 
 import cn.yizhimcqiu.pubg.registries.*;
 import com.mojang.logging.LogUtils;
+import cpw.mods.jarhandling.impl.Jar;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
